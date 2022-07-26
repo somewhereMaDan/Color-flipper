@@ -31,7 +31,8 @@ h4{
   justify-content: center;
   align-items: center;
   margin-top: 180px;
-  margin-left: 460px;
+  margin-left: auto;
+  margin-right: auto;
 
   padding-left: 15px;
   padding-right: 15px;
@@ -39,7 +40,7 @@ h4{
   background-color: lightblue;
 
   border-radius: 10px;
-  width: 580px;
+  max-width: 580px;
 }
 
 .txt-div{
@@ -53,14 +54,11 @@ h4{
 
 .btn-class{
   position: fixed;
-  bottom: 310px;
   background-color: grey;
 }
 
 #btn{
   position: absolute;
-  top: -40px;
-  left: -48px;
   height: 40px;
   width: 100px;
   border-style: none;
@@ -69,6 +67,8 @@ h4{
 
   color: blueviolet;
   font-weight: 600;
+  top: 50;
+  left: -45;
 }
 
 #btn:hover{
